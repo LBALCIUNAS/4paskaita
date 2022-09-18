@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    background: rgb(0, 0, 0);
+}
+
+table, th, td {
+    border: 3px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 650px;
+    height: 50px;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  tr:nth-child(1) {
+    background: hsl(310deg 100% 26%);
+  }
+ tr:nth-child(2), tr:nth-child(6) {
+    background: hsl(318deg 83% 72%);
+  }
+
+  
+ tr:nth-child(4), tr:nth-child(8) {
+    background: hsl(319deg 36% 51%);
+  }
+  table {
+    border: 8px solid white;
+  }
+th, td {
+    font-weight: 400;
+}
+th.a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.center {
+  margin-left:  auto;
+  margin-right: auto;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+
+table {
+    border: 2px solid black;
+    width: 450px;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+
+}
+tr,th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.a {
+  background:   hsl(39deg 100% 50%);
+color: white;
+}
+.b {
+  background:   hsl(240deg 100% 65%);
+color: white;
+}
+.c {
+    background: hsl(133deg 79% 42%);
+    color: white;
+}
+.aa {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.center {
+    margin-left:  auto;
+    margin-right: auto;
+}

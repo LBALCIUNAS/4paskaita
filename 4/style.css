@@ -1,0 +1,24 @@
+*{
+    margin: 5px;
+    padding: 5px ;
+ text-align: center;
+}
+
+p:nth-child(odd) {
+    width: 20px;
+    height: 20px;
+    background: hsl(19deg 88% 51%);
+    border: 25px solid hsl(132deg 67% 51%);
+    display: inline-block;
+    outline: 5px solid hsl(22deg 82% 49%);
+    
+  }
+p:nth-child(even) {
+    width: 20px;
+    height: 20px;
+    background: hsl(132deg 67% 51%);
+    border: 25px solid hsl(19deg 88% 51%);
+   display: inline-block;
+outline: 5px solid hsl(59deg 53% 38%);
+  }
+ 
